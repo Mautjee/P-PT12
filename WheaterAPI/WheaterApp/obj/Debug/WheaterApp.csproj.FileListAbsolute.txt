@@ -1,0 +1,12 @@
+D:\Documenten\_School\Proftaak\WheaterAPI\WheaterApp\bin\Debug\WheaterApp.exe.config
+D:\Documenten\_School\Proftaak\WheaterAPI\WheaterApp\bin\Debug\WheaterApp.exe
+D:\Documenten\_School\Proftaak\WheaterAPI\WheaterApp\bin\Debug\WheaterApp.pdb
+D:\Documenten\_School\Proftaak\WheaterAPI\WheaterApp\obj\Debug\WheaterApp.csprojResolveAssemblyReference.cache
+D:\Documenten\_School\Proftaak\WheaterAPI\WheaterApp\obj\Debug\WheaterApp.Properties.Resources.resources
+D:\Documenten\_School\Proftaak\WheaterAPI\WheaterApp\obj\Debug\WheaterApp.csproj.GenerateResource.Cache
+D:\Documenten\_School\Proftaak\WheaterAPI\WheaterApp\obj\Debug\WheaterApp.csproj.CoreCompileInputs.cache
+D:\Documenten\_School\Proftaak\WheaterAPI\WheaterApp\obj\Debug\WheaterApp.exe
+D:\Documenten\_School\Proftaak\WheaterAPI\WheaterApp\obj\Debug\WheaterApp.pdb
+D:\Documenten\_School\Proftaak\WheaterAPI\WheaterApp\bin\Debug\Newtonsoft.Json.dll
+D:\Documenten\_School\Proftaak\WheaterAPI\WheaterApp\bin\Debug\Newtonsoft.Json.xml
+D:\Documenten\_School\Proftaak\WheaterAPI\WheaterApp\obj\Debug\WheaterApp.Form1.resources
