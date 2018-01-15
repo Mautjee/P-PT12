@@ -1,38 +1,13 @@
-String message;
-char readChar;
-bool command = false;
-
-void receiveMessage() {
-  uint8_t buf[RH_ASK_MAX_MESSAGE_LEN];
-  uint8_t buflen = sizeof(buf);
-
-  if (driver.recv(buf, &buflen)) {
-    int i;
-
-    for (int i = 0; i < buflen; i++) {
-      readChar = (char)buf[i];
-    }
-    
-    if (readChar == '#' || command == true) {
+//Hier code plaatsten voor het ontvangen van commands.
+//Onderstaande if statement nesten op de locatie waar de characters 1 voor 1 worden binnengehaald.
+    if (readChar == '#' || command == true) { //vervang de # door command openingsteken
       command = true;
-      message += readChar;
-      if (readChar == '%') {
-        command = false;
-        Serial.println(message);
-        message = "";
+      message += readChar; //maakt een volledig command uit characters
+      if (readChar == '%') { //vervang de % door command sluitteken
+        command = false;  //reset de command check, command begint pas weer als het openingsteken binnenkomt
+        Serial.println(message); //debug extra controle
+        message = ""; //cleared de string voor volgende command
       }
     }
-  }
-}
 
-void convertSerial(String text) {
-  if (text.indexOf("FORWARD") > 0) {
-    // String contains FORWARD
-  }else if(text.indexOf("BACKWARD") > 0){
-  }else if(text.indexOf("LEFT") > 0){
-  }else if(text.indexOf("RIGHT") > 0){
-  }else if(text.indexOf("STRAIGHT") > 0){
-  }else if(text.indexOf("BACKWARD") > 0){
-    // CHECK / set speed
-  }
-}
+//
